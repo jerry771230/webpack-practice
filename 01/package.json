@@ -1,0 +1,17 @@
+{
+  "name": "webpack-01",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack",
+    "start-run": "./node_modules/.bin/webpack && node dist/bundle.js",
+    "p": "./node_modules/.bin/webpack -p"
+  },
+  "keywords": [],
+  "author": "jerry771230",
+  "license": "MIT",
+  "description": "webpack practice",
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  }
+}
